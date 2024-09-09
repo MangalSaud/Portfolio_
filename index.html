@@ -1,0 +1,207 @@
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+        <nav class="nav">
+          <a href="/" class="logo"> <span class="highlighted"> O</span>liver</a>
+  
+          <div class="nav-links">
+            <a href="#home" class="nav-item nav-item-active">Home</a>
+            <a href="#about" class="nav-item">About</a>
+            <a href="#services" class="nav-item">Services</a>
+            <a href="#projects" class="nav-item">projects</a>
+            <a href="#contact" class="nav-item">contact</a>
+          </div>
+  
+          <div class="toggler">
+            <span class="line"></span><span class="line"></span
+            ><span class="line"></span>
+          </div>
+        </nav>
+      </header>
+      <section class="hero container" id="home">
+        <div class="hero-info">
+         <h1 class="title">Oliver <span class="highlighted">Queen</span></h1>
+         <p class="hero-description">Web developer based in Starling City.</p>
+         <a href="#services" class="btn hero-btn">Services</a>
+       </div>
+ 
+       <div class="hero-img">
+         <img src="./images/hero-img.png" alt="Oliver Queen" />
+       </div>
+  </section>
+
+  <section class="about container" id="about">
+    <div class="about-img">
+      <img src="./images/about-img.png" alt="Oliver Queen" />
+    </div>
+
+    <div class="about-info">
+      <h2 class="secondery-title">About Me</h2>
+
+      <p class="description">
+        Dolorem facere perspiciatis voluptatibus qui placeat ut eum est autem.
+        Deleniti eius repellendus dolorum id illo. Quasi autem dolorem est eos
+        autem magni. Tempore consequuntur ullam enim molestias fugit
+        voluptatibus sed sit aut.
+      </p>
+
+      <p class="description">
+        Ex veritatis vitae nam autem sint natus odio perspiciatis autem.
+        Dolorem quos dicta culpa quod dolores vel sunt eligendi iste.
+        Voluptate ut voluptatum beatae sint ut saepe impedit tempora id. Eaque
+        tempore cum officia porro consequatur. Quis eos nostrum eos a commodi.
+      </p>
+
+      <p class="description">
+        Officiis dolores asperiores inventore ut est delectus. Vel voluptatem
+        quae omnis sunt nihil et iste consectetur. Sint rerum totam optio
+        tempora et doloremque id.
+      </p>
+
+      <a href="#" class="btn btn-secondery">More</a>
+    </div>
+  </section>
+
+
+  <div class="services container" id="services">
+    <div class="services-header">
+      <h2 class="secondery-title">Services</h2>
+    </div>
+
+    <div class="grid services-grid">
+      <div class="grid-item services-item">
+        <i class="fa-solid fa-computer"></i>
+        <h3>Webdesite Design</h3>
+        <p class="description">
+          Qui sunt id nemo voluptatem. Cum veritatis reiciendis rem dolores at
+          unde harum sit omnis.
+        </p>
+      </div>
+      <div class="grid-item services-item">
+        <i class="fa-solid fa-meteor"></i>
+
+        <h3>SEO & Marketing</h3>
+        <p class="description">
+          Dolores minus suscipit rerum neque. Et vitae rerum et ratione.
+          Nesciunt ut dolores neque.
+        </p>
+      </div>
+      <div class="grid-item services-item">
+        <i class="fa-solid fa-pen-nib"></i>
+        <h3>UI/UX Design</h3>
+        <p class="description">
+          Architecto et aliquid totam quam sit quibusdam ipsam. Dolorem
+          dolores fuga rerum quidem. A odio et qui quia harum.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <section class="projects container" id="projects">
+    <div class="projects-header">
+      <h2 class="secondery-title">Projects</h2>
+
+      <div class="projects-tab">
+        <button class="projects-tab-btn projects-tab-btn-active" id="all">
+          All
+        </button>
+        <button class="projects-tab-btn" id="design">Design</button>
+        <button class="projects-tab-btn" id="seo">SEO</button>
+        <button class="projects-tab-btn" id="ui-ux">UI/UX</button>
+      </div>
+    </div>
+
+    <div class="grid projects-grid">
+      <div class="grid-item projects-item all design">
+        <img src="./images/project-1.png " alt="" />
+      </div>
+      <div class="grid-item projects-item all design">
+        <img src="./images/project-2.png" alt="" />
+      </div>
+      <div class="grid-item projects-item all seo">
+        <img src="./images/project-3.png" alt="" />
+      </div>
+      <div class="grid-item projects-item all seo">
+        <img src="./images/project-4.png" alt="" />
+      </div>
+      <div class="grid-item projects-item all ui-ux">
+        <img src="./images/project-5.png" alt="" />
+      </div>
+      <div class="grid-item projects-item all ui-ux">
+        <img src="./images/project-6.png" alt="" />
+      </div>
+    </div>
+  </section>
+
+  <section class="container contact" id="contact">
+    <div class="contact-info">
+      <h2 class="secondery-title">Contact</h2>
+      <div class="info-container">
+        <div class="contact-info-item">
+          <div class="contact-info-icon">
+            <i class="fa-solid fa-location-dot"></i>
+          </div>
+          <div class="contact-info-data">
+            <h3>Address</h3>
+            <p>Alec Brook 243</p>
+          </div>
+        </div>
+        <div class="contact-info-item">
+          <div class="contact-info-icon">
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+          <div class="contact-info-data">
+            <h3>Email</h3>
+            <p>Oliver@gmail.com</p>
+          </div>
+        </div>
+        <div class="contact-info-item">
+          <div class="contact-info-icon">
+            <i class="fa-solid fa-phone-volume"></i>
+          </div>
+          <div class="contact-info-data">
+            <h3>Phone</h3>
+            <p>333-423-889</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contact-form">
+      <form>
+        <input type="text" placeholder="Name" />
+        <input type="text" placeholder="Email" />
+        <textarea
+          name="message"
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Message"
+        ></textarea>
+        <button class="btn submit-btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+      <footer class="footer">
+    <p>&copy; 2023 Oliver Queen All Right Reserved</p>
+  </footer>
+
+        <script src="./script.js"></script>
+  </body>
+</html>
